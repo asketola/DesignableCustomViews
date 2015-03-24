@@ -13,6 +13,10 @@
 		79192D561AC0A4680086FDBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79192D551AC0A4680086FDBA /* Images.xcassets */; };
 		79192D591AC0A4680086FDBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79192D571AC0A4680086FDBA /* LaunchScreen.xib */; };
 		79192D651AC0A4680086FDBA /* DesignableCustomViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79192D641AC0A4680086FDBA /* DesignableCustomViewsTests.swift */; };
+		79192D711AC0A5090086FDBA /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79192D701AC0A5090086FDBA /* PopupView.swift */; };
+		79192D731AC0A52B0086FDBA /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79192D721AC0A52B0086FDBA /* PopupView.xib */; };
+		79192D751AC0A8A70086FDBA /* wild_turkey_full_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 79192D741AC0A8A70086FDBA /* wild_turkey_full_2208.png */; };
+		79192D771AC0B2040086FDBA /* IMGM9527.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 79192D761AC0B2040086FDBA /* IMGM9527.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		79192D5E1AC0A4680086FDBA /* DesignableCustomViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableCustomViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79192D631AC0A4680086FDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79192D641AC0A4680086FDBA /* DesignableCustomViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableCustomViewsTests.swift; sourceTree = "<group>"; };
+		79192D701AC0A5090086FDBA /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		79192D721AC0A52B0086FDBA /* PopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
+		79192D741AC0A8A70086FDBA /* wild_turkey_full_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wild_turkey_full_2208.png; sourceTree = "<group>"; };
+		79192D761AC0B2040086FDBA /* IMGM9527.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMGM9527.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				79192D4E1AC0A4680086FDBA /* AppDelegate.swift */,
 				79192D501AC0A4680086FDBA /* ViewController.swift */,
 				79192D521AC0A4680086FDBA /* Main.storyboard */,
+				79192D761AC0B2040086FDBA /* IMGM9527.JPG */,
+				79192D701AC0A5090086FDBA /* PopupView.swift */,
+				79192D721AC0A52B0086FDBA /* PopupView.xib */,
+				79192D741AC0A8A70086FDBA /* wild_turkey_full_2208.png */,
 				79192D551AC0A4680086FDBA /* Images.xcassets */,
 				79192D571AC0A4680086FDBA /* LaunchScreen.xib */,
 				79192D4C1AC0A4680086FDBA /* Supporting Files */,
@@ -193,7 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				79192D541AC0A4680086FDBA /* Main.storyboard in Resources */,
+				79192D751AC0A8A70086FDBA /* wild_turkey_full_2208.png in Resources */,
+				79192D731AC0A52B0086FDBA /* PopupView.xib in Resources */,
 				79192D591AC0A4680086FDBA /* LaunchScreen.xib in Resources */,
+				79192D771AC0B2040086FDBA /* IMGM9527.JPG in Resources */,
 				79192D561AC0A4680086FDBA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79192D711AC0A5090086FDBA /* PopupView.swift in Sources */,
 				79192D511AC0A4680086FDBA /* ViewController.swift in Sources */,
 				79192D4F1AC0A4680086FDBA /* AppDelegate.swift in Sources */,
 			);
