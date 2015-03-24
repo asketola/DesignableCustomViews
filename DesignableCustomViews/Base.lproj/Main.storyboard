@@ -25,8 +25,8 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="IMGM9527.JPG"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="message" value="Hi! This is my new message"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Don't press this one"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="message" value="This view is using a customized xib file, it expands to the size of the view on this page"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Example button"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
@@ -40,8 +40,8 @@
                                     <constraint firstAttribute="width" constant="300" id="P8g-cx-7Zz"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="message" value="Here is something else in this place. We can totally customize it!"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="$100 store price"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="message" value="This is using the exact same xib file as the unit above, the view is just smaller here"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Press me!"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="69"/>
                                     </userDefinedRuntimeAttribute>
